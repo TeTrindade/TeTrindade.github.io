@@ -33,7 +33,7 @@ p{
     text-decoration: none;
     color: #2e2e2e;
     background-color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     border-radius: 8px 20px;
     font-weight: bold;
@@ -42,5 +42,5 @@ p{
 }
 a:hover.button
 {
-    background-color: #fff783;
+    background-color: #b3b3b3;
 }
