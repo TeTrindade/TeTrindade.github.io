@@ -1,2 +1,0 @@
-# TeTrindade.github.io
-Portfólio
