@@ -1,0 +1,113 @@
+*{
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ font-size: 17px;
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: brown;
+    background-image: linear-gradient(brown, rgb(92, 1, 1), brown);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+html, body{
+    height: 100%;
+}
+#NewColor{
+    margin-left: 30px;  
+    height: 60px;
+    width: 60px;  
+}
+#color-palette, #pixel-board{
+    background-color: #2a2a2a;
+    border-radius: 3px;
+}
+#buttons{
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: auto;
+    background-color: rgb(59, 59, 59);
+    border-radius: 3px;
+}
+#color-palette{
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+    padding: auto;
+
+}
+input{
+    height: 37px;
+    margin: 5px;
+    width: 55px;
+    font-size: 25px;
+    font-family: monospace;
+}
+#generate-board{
+    height: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: green;
+    margin-left: 5px;
+    font-family: monospace;
+    width: 60px;
+}
+#ResetColors{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: brown;
+    margin-left: 5px;
+    font-family: monospace;
+}
+#clear-board{
+    height: 37px;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(122, 122, 122);
+    margin-bottom: 15px;
+    font-family: monospace;
+    width: 150px;
+
+}
+#pixel-board{
+    
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 1px;
+
+}
+.pixel{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.color{
+    padding: 0.5 em;
+    width: 80px;
+    height: 80px;
+    margin: 0.50em;
+    border: 1px solid black;
+}
